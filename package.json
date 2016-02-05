@@ -6,7 +6,8 @@
   "scripts": {
     "test": "eslint src/**",
     "build": "webpack",
-    "watch": "npm run build -- -w"
+    "dev:server": "webpack-dev-server --content-base build/ --inline",
+    "dev": "npm run dev:server"
   },
   "repository": {
     "type": "git",
@@ -27,7 +28,9 @@
     "eslint": "^1.10.3",
     "eslint-config-airbnb": "^5.0.0",
     "eslint-plugin-react": "^3.16.1",
-    "webpack": "^1.12.13"
+    "html-webpack-plugin": "^2.8.1",
+    "webpack": "^1.12.13",
+    "webpack-dev-server": "^1.14.1"
   },
   "dependencies": {
     "babel-runtime": "^6.3.19",
