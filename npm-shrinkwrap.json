@@ -59,6 +59,11 @@
       "from": "arr-flatten@>=1.0.1 <2.0.0",
       "resolved": "https://registry.npmjs.org/arr-flatten/-/arr-flatten-1.0.1.tgz"
     },
+    "array-find": {
+      "version": "1.0.0",
+      "from": "array-find@>=1.0.0 <2.0.0",
+      "resolved": "https://registry.npmjs.org/array-find/-/array-find-1.0.0.tgz"
+    },
     "array-flatten": {
       "version": "1.1.1",
       "from": "array-flatten@1.1.1",
@@ -289,6 +294,11 @@
           "resolved": "https://registry.npmjs.org/babel-runtime/-/babel-runtime-5.8.35.tgz"
         }
       }
+    },
+    "babel-plugin-react-transform": {
+      "version": "2.0.0",
+      "from": "babel-plugin-react-transform@latest",
+      "resolved": "https://registry.npmjs.org/babel-plugin-react-transform/-/babel-plugin-react-transform-2.0.0.tgz"
     },
     "babel-plugin-syntax-async-functions": {
       "version": "6.3.13",
@@ -1001,6 +1011,11 @@
         }
       }
     },
+    "dom-walk": {
+      "version": "0.1.1",
+      "from": "dom-walk@>=0.1.0 <0.2.0",
+      "resolved": "https://registry.npmjs.org/dom-walk/-/dom-walk-0.1.1.tgz"
+    },
     "domain-browser": {
       "version": "1.1.7",
       "from": "domain-browser@>=1.1.1 <2.0.0",
@@ -1057,6 +1072,11 @@
       "version": "0.1.4",
       "from": "errno@>=0.1.3 <0.2.0",
       "resolved": "https://registry.npmjs.org/errno/-/errno-0.1.4.tgz"
+    },
+    "error-stack-parser": {
+      "version": "1.3.3",
+      "from": "error-stack-parser@>=1.2.0 <2.0.0",
+      "resolved": "https://registry.npmjs.org/error-stack-parser/-/error-stack-parser-1.3.3.tgz"
     },
     "es5-ext": {
       "version": "0.10.11",
@@ -1989,6 +2009,18 @@
       "from": "glob-parent@>=2.0.0 <3.0.0",
       "resolved": "https://registry.npmjs.org/glob-parent/-/glob-parent-2.0.0.tgz"
     },
+    "global": {
+      "version": "4.3.0",
+      "from": "global@>=4.3.0 <5.0.0",
+      "resolved": "https://registry.npmjs.org/global/-/global-4.3.0.tgz",
+      "dependencies": {
+        "process": {
+          "version": "0.5.2",
+          "from": "process@>=0.5.1 <0.6.0",
+          "resolved": "https://registry.npmjs.org/process/-/process-0.5.2.tgz"
+        }
+      }
+    },
     "globals": {
       "version": "8.18.0",
       "from": "globals@>=8.11.0 <9.0.0",
@@ -2544,6 +2576,11 @@
       "from": "mime-types@>=2.1.9 <2.2.0",
       "resolved": "https://registry.npmjs.org/mime-types/-/mime-types-2.1.9.tgz"
     },
+    "min-document": {
+      "version": "2.18.0",
+      "from": "min-document@>=2.6.1 <3.0.0",
+      "resolved": "https://registry.npmjs.org/min-document/-/min-document-2.18.0.tgz"
+    },
     "minimatch": {
       "version": "3.0.0",
       "from": "minimatch@>=3.0.0 <4.0.0",
@@ -2831,10 +2868,30 @@
       "from": "react@latest",
       "resolved": "https://registry.npmjs.org/react/-/react-0.14.7.tgz"
     },
+    "react-deep-force-update": {
+      "version": "1.0.1",
+      "from": "react-deep-force-update@>=1.0.0 <2.0.0",
+      "resolved": "https://registry.npmjs.org/react-deep-force-update/-/react-deep-force-update-1.0.1.tgz"
+    },
     "react-dom": {
       "version": "0.14.7",
       "from": "react-dom@latest",
       "resolved": "https://registry.npmjs.org/react-dom/-/react-dom-0.14.7.tgz"
+    },
+    "react-proxy": {
+      "version": "1.1.2",
+      "from": "react-proxy@>=1.1.1 <2.0.0",
+      "resolved": "https://registry.npmjs.org/react-proxy/-/react-proxy-1.1.2.tgz"
+    },
+    "react-transform-catch-errors": {
+      "version": "1.0.2",
+      "from": "react-transform-catch-errors@latest",
+      "resolved": "https://registry.npmjs.org/react-transform-catch-errors/-/react-transform-catch-errors-1.0.2.tgz"
+    },
+    "react-transform-hmr": {
+      "version": "1.0.2",
+      "from": "react-transform-hmr@latest",
+      "resolved": "https://registry.npmjs.org/react-transform-hmr/-/react-transform-hmr-1.0.2.tgz"
     },
     "read-json-sync": {
       "version": "1.1.1",
@@ -2862,6 +2919,11 @@
       "version": "1.0.1",
       "from": "readline2@>=1.0.1 <2.0.0",
       "resolved": "https://registry.npmjs.org/readline2/-/readline2-1.0.1.tgz"
+    },
+    "redbox-react": {
+      "version": "1.2.2",
+      "from": "redbox-react@latest",
+      "resolved": "https://registry.npmjs.org/redbox-react/-/redbox-react-1.2.2.tgz"
     },
     "regenerate": {
       "version": "1.2.1",
@@ -3062,6 +3124,11 @@
       "version": "1.0.3",
       "from": "sprintf-js@>=1.0.2 <1.1.0",
       "resolved": "https://registry.npmjs.org/sprintf-js/-/sprintf-js-1.0.3.tgz"
+    },
+    "stackframe": {
+      "version": "0.3.1",
+      "from": "stackframe@>=0.3.1 <0.4.0",
+      "resolved": "https://registry.npmjs.org/stackframe/-/stackframe-0.3.1.tgz"
     },
     "statuses": {
       "version": "1.2.1",
