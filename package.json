@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "test": "eslint src/**",
-    "build": "babel src -d build",
+    "build": "webpack",
     "watch": "npm run build -- -w"
   },
   "repository": {
@@ -19,14 +19,15 @@
   },
   "homepage": "https://github.com/rwillrich/life-goals-tracker#readme",
   "devDependencies": {
-    "babel-cli": "^6.4.5",
     "babel-core": "^6.4.5",
+    "babel-loader": "^6.2.2",
     "babel-plugin-transform-runtime": "^6.4.3",
     "babel-preset-es2015": "^6.3.13",
     "babel-preset-react": "^6.3.13",
     "eslint": "^1.10.3",
     "eslint-config-airbnb": "^5.0.0",
-    "eslint-plugin-react": "^3.16.1"
+    "eslint-plugin-react": "^3.16.1",
+    "webpack": "^1.12.13"
   },
   "dependencies": {
     "babel-runtime": "^6.3.19",
