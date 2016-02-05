@@ -9,7 +9,7 @@ export default {
   },
   module: {
     loaders: [
-      { test: /\.jsx?/, include: /src/, loader: 'babel' }
+      { test: /\.jsx?/, exclude: /node_modules/, loader: 'babel' }
     ]
   }
 }
