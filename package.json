@@ -9,6 +9,8 @@
     "dev:server": "webpack-dev-server --content-base build/ --inline --hot --eval",
     "dev": "npm run dev:server"
   },
+  "pre-commit": ["test"],
+  "pre-push": ["test"],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rwillrich/life-goals-tracker.git"
@@ -30,6 +32,8 @@
     "eslint-config-airbnb": "^5.0.0",
     "eslint-plugin-react": "^3.16.1",
     "html-webpack-plugin": "^2.8.1",
+    "pre-commit": "^1.1.2",
+    "pre-push": "^0.1.1",
     "react-transform-catch-errors": "^1.0.2",
     "react-transform-hmr": "^1.0.2",
     "redbox-react": "^1.2.2",
