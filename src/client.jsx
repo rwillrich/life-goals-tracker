@@ -3,4 +3,4 @@ import { render } from 'react-dom'
 
 import Hello from './components/Hello'
 
-render(<Hello name="Rodrigo" />, document.getElementById('root'))
+render(<Hello />, document.getElementById('root'))
