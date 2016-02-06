@@ -1,6 +1,14 @@
 import React from 'react'
 import { render } from 'react-dom'
+import { Provider } from 'react-redux'
 
-import Hello from './components/Hello'
+import Counter from './containers/Counter'
+import configureStore from './configureStore'
 
-render(<Hello />, document.getElementById('root'))
+const store = configureStore()
+
+render((
+  <Provider store={store}>
+    <Counter />
+  </Provider>
+), document.getElementById('root'))
