@@ -18,7 +18,7 @@ export default {
   plugins: [
     new HtmlWebpackPlugin({
       title: 'Life Goals Tracker',
-      template: 'src/index.ejs'
+      template: './src/templates/index.ejs'
     })
   ]
 }
