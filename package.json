@@ -4,7 +4,7 @@
   "description": "Life goals tracker",
   "private": true,
   "scripts": {
-    "test": "eslint src/**",
+    "test": "eslint src --ext .js,.jsx",
     "build": "webpack",
     "dev:server": "webpack-dev-server --content-base build/ --inline --hot --eval",
     "dev": "npm run dev:server"
