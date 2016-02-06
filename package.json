@@ -6,8 +6,7 @@
   "scripts": {
     "test": "eslint src --ext .js,.jsx",
     "build": "webpack",
-    "dev:server": "webpack-dev-server --content-base build/ --inline --hot --eval",
-    "dev": "npm run dev:server"
+    "dev": "webpack-dev-server --content-base build/ --inline --hot --eval"
   },
   "pre-commit": ["test"],
   "pre-push": ["test"],
