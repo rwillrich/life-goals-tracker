@@ -2,7 +2,7 @@ import React, { PropTypes } from 'react'
 
 const Counter = ({ counter, decrement, increment }) => (
   <div>
-    <h1>{counter}</h1>
+    <h1><strong>{counter}</strong></h1>
     <button onClick={decrement}>-</button>
     <button onClick={increment}>+</button>
   </div>

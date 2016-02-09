@@ -3541,6 +3541,11 @@
       "from": "react-router@2.0.0-rc6",
       "resolved": "https://registry.npmjs.org/react-router/-/react-router-2.0.0-rc6.tgz"
     },
+    "react-router-redux": {
+      "version": "4.0.0-beta.1",
+      "from": "react-router-redux@4.0.0-beta.1",
+      "resolved": "https://registry.npmjs.org/react-router-redux/-/react-router-redux-4.0.0-beta.1.tgz"
+    },
     "react-transform-catch-errors": {
       "version": "1.0.2",
       "from": "react-transform-catch-errors@latest",
