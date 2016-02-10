@@ -12,7 +12,21 @@ export default {
   },
   module: {
     loaders: [
-      { test: /\.jsx?/, exclude: /node_modules/, loader: 'babel' }
+      { test: /\.jsx?/, exclude: /node_modules/, loader: 'babel' },
+      {
+        test: /\.css/,
+        loader: 'style!' +
+          'css?modules&localIdentName=[name]__[local]___[hash:base64:5]' +
+          'postcss'
+      }
+    ]
+  },
+  postcss(webpack) {
+    return [
+      require('postcss-import')({ addDependencyTo: webpack }),
+      require('postcss-url')(),
+      require('postcss-cssnext')(),
+      require('postcss-reporter')()
     ]
   },
   plugins: [
