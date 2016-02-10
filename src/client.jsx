@@ -1,17 +1,11 @@
 import React from 'react'
 import { render } from 'react-dom'
 import { Provider } from 'react-redux'
-import { Router, Route, IndexRoute, browserHistory } from 'react-router'
+import { Router, browserHistory } from 'react-router'
 import { syncHistoryWithStore } from 'react-router-redux'
 
-import Counter from './containers/Counter'
 import configureStore from './configureStore'
-
-const routes = (
-  <Route path="/">
-    <IndexRoute component={Counter} />
-  </Route>
-)
+import routes from './routes'
 
 const store = configureStore(browserHistory)
 const history = syncHistoryWithStore(browserHistory, store)
