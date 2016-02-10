@@ -5,7 +5,7 @@ import { expect } from 'chai'
 import Counter from '../../src/components/counter'
 
 describe('Counter', () => {
-  it('should render the counter value', () => {
+  it('renders the counter value', () => {
     const wrapper = shallow(
       <Counter counter={1} />
     )
