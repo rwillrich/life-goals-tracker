@@ -9,12 +9,16 @@ import { syncHistoryWithStore } from 'react-router-redux'
 
 import configureStore from './configure-store'
 import routes from './routes'
+import DevTools from './containers/dev-tools'
 
 const store = configureStore(browserHistory)
 const history = syncHistoryWithStore(browserHistory, store)
 
 render((
   <Provider store={store}>
-    <Router history={history} routes={routes} />
+    <div>
+      <Router history={history} routes={routes} />
+      <DevTools />
+    </div>
   </Provider>
 ), document.getElementById('root'))

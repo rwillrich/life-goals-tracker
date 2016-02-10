@@ -818,6 +818,11 @@
       "from": "balanced-match@>=0.3.0 <0.4.0",
       "resolved": "https://registry.npmjs.org/balanced-match/-/balanced-match-0.3.0.tgz"
     },
+    "base16": {
+      "version": "1.0.0",
+      "from": "base16@>=1.0.0 <2.0.0",
+      "resolved": "https://registry.npmjs.org/base16/-/base16-1.0.0.tgz"
+    },
     "base62": {
       "version": "0.1.1",
       "from": "base62@0.1.1",
@@ -3289,6 +3294,11 @@
       "from": "lodash.clonedeep@>=3.0.1 <4.0.0",
       "resolved": "https://registry.npmjs.org/lodash.clonedeep/-/lodash.clonedeep-3.0.2.tgz"
     },
+    "lodash.debounce": {
+      "version": "3.1.1",
+      "from": "lodash.debounce@>=3.1.1 <4.0.0",
+      "resolved": "https://registry.npmjs.org/lodash.debounce/-/lodash.debounce-3.1.1.tgz"
+    },
     "lodash.deburr": {
       "version": "3.2.0",
       "from": "lodash.deburr@>=3.0.0 <4.0.0",
@@ -3738,6 +3748,11 @@
       "version": "3.0.4",
       "from": "parse-glob@>=3.0.4 <4.0.0",
       "resolved": "https://registry.npmjs.org/parse-glob/-/parse-glob-3.0.4.tgz"
+    },
+    "parse-key": {
+      "version": "0.2.1",
+      "from": "parse-key@>=0.2.1 <0.3.0",
+      "resolved": "https://registry.npmjs.org/parse-key/-/parse-key-0.2.1.tgz"
     },
     "parse5": {
       "version": "1.5.1",
@@ -4302,6 +4317,11 @@
       "from": "react-deep-force-update@>=1.0.0 <2.0.0",
       "resolved": "https://registry.npmjs.org/react-deep-force-update/-/react-deep-force-update-1.0.1.tgz"
     },
+    "react-dock": {
+      "version": "0.2.3",
+      "from": "react-dock@>=0.2.1 <0.3.0",
+      "resolved": "https://registry.npmjs.org/react-dock/-/react-dock-0.2.3.tgz"
+    },
     "react-dom": {
       "version": "0.14.7",
       "from": "react-dom@>=0.14.7 <0.15.0",
@@ -4319,6 +4339,23 @@
         }
       }
     },
+    "react-json-tree": {
+      "version": "0.5.2",
+      "from": "react-json-tree@>=0.5.1 <0.6.0",
+      "resolved": "https://registry.npmjs.org/react-json-tree/-/react-json-tree-0.5.2.tgz"
+    },
+    "react-mixin": {
+      "version": "1.7.0",
+      "from": "react-mixin@>=1.7.0 <2.0.0",
+      "resolved": "https://registry.npmjs.org/react-mixin/-/react-mixin-1.7.0.tgz",
+      "dependencies": {
+        "object-assign": {
+          "version": "2.1.1",
+          "from": "object-assign@>=2.0.0 <3.0.0",
+          "resolved": "https://registry.npmjs.org/object-assign/-/object-assign-2.1.1.tgz"
+        }
+      }
+    },
     "react-proxy": {
       "version": "1.1.2",
       "from": "react-proxy@>=1.1.1 <2.0.0",
@@ -4330,6 +4367,11 @@
           "resolved": "https://registry.npmjs.org/lodash/-/lodash-3.10.1.tgz"
         }
       }
+    },
+    "react-pure-render": {
+      "version": "1.0.2",
+      "from": "react-pure-render@>=1.0.2 <2.0.0",
+      "resolved": "https://registry.npmjs.org/react-pure-render/-/react-pure-render-1.0.2.tgz"
     },
     "react-redux": {
       "version": "4.4.0",
@@ -4413,6 +4455,26 @@
       "version": "3.3.1",
       "from": "redux@>=3.3.1 <4.0.0",
       "resolved": "https://registry.npmjs.org/redux/-/redux-3.3.1.tgz"
+    },
+    "redux-devtools": {
+      "version": "3.1.1",
+      "from": "redux-devtools@latest",
+      "resolved": "https://registry.npmjs.org/redux-devtools/-/redux-devtools-3.1.1.tgz"
+    },
+    "redux-devtools-dock-monitor": {
+      "version": "1.0.1",
+      "from": "redux-devtools-dock-monitor@latest",
+      "resolved": "https://registry.npmjs.org/redux-devtools-dock-monitor/-/redux-devtools-dock-monitor-1.0.1.tgz"
+    },
+    "redux-devtools-log-monitor": {
+      "version": "1.0.4",
+      "from": "redux-devtools-log-monitor@latest",
+      "resolved": "https://registry.npmjs.org/redux-devtools-log-monitor/-/redux-devtools-log-monitor-1.0.4.tgz"
+    },
+    "redux-devtools-themes": {
+      "version": "1.0.0",
+      "from": "redux-devtools-themes@>=1.0.0 <2.0.0",
+      "resolved": "https://registry.npmjs.org/redux-devtools-themes/-/redux-devtools-themes-1.0.0.tgz"
     },
     "regenerate": {
       "version": "1.2.1",
@@ -4624,6 +4686,11 @@
       "version": "1.0.0",
       "from": "slash@>=1.0.0 <2.0.0",
       "resolved": "https://registry.npmjs.org/slash/-/slash-1.0.0.tgz"
+    },
+    "smart-mixin": {
+      "version": "1.2.1",
+      "from": "smart-mixin@>=1.2.0 <2.0.0",
+      "resolved": "https://registry.npmjs.org/smart-mixin/-/smart-mixin-1.2.1.tgz"
     },
     "snake-case": {
       "version": "1.1.2",
